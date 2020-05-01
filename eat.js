@@ -1,7 +1,9 @@
-// 2020.4.23 by yang 遵循MIT协议开源
+// 最后编辑日期 2020.4.25 by yang
+// Eatwhat by yang 
+// 遵循MIT协议开源
 setTimeout("eatwhat()","0");
 function eatwhat() {
-    var food=57;    //录入食物的数量
+    var food=85;    //录入食物的数量
     var number=Math.floor(Math.random()*food);    // 可均衡获取食物数量的随机整数。
     switch (number){
         case 0:eatfood="小榄鱼球";
@@ -119,6 +121,62 @@ function eatwhat() {
         case 56:eatfood="凤梨酥";
         break;  
         case 57:eatfood="炒酸奶";
+        break;
+        case 58:eatfood="油炸鸡米花";
+        break;
+        case 59:eatfood="蟹香小丸子";
+        break;
+        case 60:eatfood="章鱼小丸子";
+        break;
+        case 61:eatfood="芝士年糕";
+        break;
+        case 62:eatfood="芝士蛋糕";
+        break;
+        case 63:eatfood="芝士玉米";
+        break;
+        case 64:eatfood="烤热狗";
+        break;
+        case 65:eatfood="蜜汁叉烧饭";
+        break;
+        case 66:eatfood="广式烧腊";
+        break;
+        case 67:eatfood="(喝)柠乐";
+        break;
+        case 68:eatfood="海鲜焗饭";
+        break;
+        case 69:eatfood="烧春鸡";
+        break;
+        case 70:eatfood="海南鸡饭";
+        break;
+        case 71:eatfood="鲜虾云吞面";
+        break;
+        case 72:eatfood="牛腩云吞面";
+        break;
+        case 73:eatfood="（喝）港式奶茶";
+        break;
+        case 74:eatfood="猪扒包";
+        break;
+        case 75:eatfood="五羊牌甜筒";
+        break;
+        case 76:eatfood="牛腩面";
+        break;
+        case 77:eatfood="奥尔良鸡腿";
+        break;
+        case 78:eatfood="鸡翅包饭";
+        break;
+        case 79:eatfood="手抓饼";
+        break;
+        case 80:eatfood="芒果慕斯";
+        break;
+        case 81:eatfood="草莓千层";
+        break;
+        case 82:eatfood="抹茶千层";
+        break;
+        case 83:eatfood="甜豆腐花";
+        break;
+        case 84:eatfood="咸豆腐花";
+        break;
+        case 85:eatfood="北京烤鸭";
         break;
     }
         document.getElementById("eatwhat").innerHTML=eatfood;
