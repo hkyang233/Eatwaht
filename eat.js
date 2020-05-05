@@ -179,5 +179,5 @@ function eatwhat() {
         case 85:eatfood="北京烤鸭";
         break;
     }
-        document.getElementById("eatwhat").innerHTML=eatfood;
+    document.getElementById("eatwhat").innerHTML = "今天吃：" + eatfood; // 在对应HTML元素显示输出的食物
     }
