@@ -3,7 +3,7 @@
 // 遵循MIT协议开源
 setTimeout("eatwhat()","0");
 function eatwhat() {
-    var food=89;    //录入食物的数量
+    var food=90;    //录入食物的数量
     var number=Math.floor(Math.random()*food);    // 可均衡获取食物数量的随机整数。
     //根据函数number的随机整数查询相应的食物
     switch (number){
@@ -186,6 +186,8 @@ function eatwhat() {
         case 88:eatfood="腊味煲仔饭";
         break;
         case 89:eatfood="烤面筋";
+        break;
+        case 90:eatfood="烤土豆";
         break;
     }
     document.getElementById("eatwhat").innerHTML = "今天吃：" + eatfood; // 在对应HTML元素显示输出的食物
