@@ -1,5 +1,5 @@
-// 最后编辑日期 2020.4.25 by yang
-// Eatwhat by yang 
+// 最后编辑日期 2020.7.4 by yang
+// 暂停更新
 // 遵循MIT协议开源
 setTimeout("eatwhat()","0");
 function eatwhat() {
