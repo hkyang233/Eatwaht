@@ -1,6 +1,7 @@
 # EatWhat
 ## 这是EatWhat插件页面
-# 调用
+##This is Eatwaht Plug-in page 
+# Demo
 ```
 <script src=https://eat.yang233.top/eat.js"></script>
             <div class="eatwhat" id="eatwhat"></div>
@@ -17,3 +18,4 @@ case 0:eatfood="小榄鱼球";
 
 # 许可
 ## EatWhat 遵守MIT协议进行开源
+
